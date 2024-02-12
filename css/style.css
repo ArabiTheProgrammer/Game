@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(#ae04f7d4,#710763c1) no-repeat fixed;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1320px;
+}
+
+
+/* ===================================================== */
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background: rgb(112, 3, 122);
+    z-index: 999;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Honk', system-ui;
+    font-size: 40px;
+}
+
+.navbar .nav-item .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #408ec6;
+    transition: .4s;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: darkorchid;
+    border-bottom: 1px solid darkorchid;
+}
+
+.navbar .log{
+    color: #ffea04;
+    background: #ee5502;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* ===================================================== */
+
+#play{
+    padding: 150px 0 100px;
+}
+
+#play .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#play .text h3{
+    color: #070345;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+#play .text h3 strong{
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+}
+
+#play .text p{
+    color: #080252;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#play .container .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#play .container .main .mainbox{
+    background: #d204b780;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.20);
+}
+
+#play .container .main .mainbox ul h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#play .container .main .mainbox ul{
+    margin: 2rem 2rem;
+}
+
+#play .container .main .mainbox ul li{
+    margin: 1rem 2rem;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* ===================================================== */
+
+#game{
+    padding-bottom: 350px;
+}
+
+#game .box{
+    width: 500px;
+    padding: 30px 30px 0;
+    border-radius: 20px;
+    margin: 100px auto;
+    display: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.20);
+}
+
+#game .box1{
+    background: #f68f8f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game .box2{
+    background: #79e9ff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game .box3{
+    background: #dd8fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game .box4{
+    background: #ffff7d;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game .box5{
+    background: #04d21c;
+    height: 275px;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    padding: 8px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.btn1,.btn2,.btn3,.btn4{
+    width: 100px;
+    padding: 5px 0;
+    border-radius: 12px;
+    margin: 50px auto;
+    border: 0;
+}
+
+.inputfield{
+    width: 100%;
+    position: relative;
+}
+
+.inputfield h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputfield .hd{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputfield .hd2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+
+.inputfield p{
+    position: absolute;
+    left: 15px;
+    top: 105%;
+    font-size: 15px;
+}
+
+.ploneinput{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.error{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===================================================== */

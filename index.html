@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbie's</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ 
+   <!-- navbar start -->
+
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Numbie's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Other Games</a>
+          </li>
+        </ul>
+        <a class="log" href="indexLoginForm.html">Login</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- navbar end -->
+
+<!-- HowToPlay start -->
+<section id="play">
+<div class="text">
+  <h3>Welcome To <strong>Numbie's</strong></h3>
+  <p>This Is A Game Where You Guess Number</p>
+</div>
+<div class="container">
+  <div class="main">
+    <div class="mainbox">
+      <ul>
+        <h3>How To Play</h3>
+        <li>The First Player Will Enter Their Name</li>
+        <li>After That, He Will Enter A Number</li>
+        <li>Then, The Second Player Will Enter Their Name</li>
+        <li>But, Instead Of Entering A Number The Second Player Will Guess The Number Of What The First Player Input</li>
+        <li>But, The Second Player Has 5 Chances</li>
+        <li>If The Second Player Loses All Their Chances Then, The First Player Wins</li>
+        <li>If The Second Payer Guesses The Correct Number Then, The Second Player Will Win</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</section>
+<!-- HowToPlay end -->
+
+<!-- game start -->
+        
+      <section id="game">
+    <div class="box box1">
+        <div class="inputfield">
+        <h2 class="head1">Enter Your Name</h2>
+        <input class="input1" type="text" placeholder="First Player's Name">
+        <p class="error error1"></p>
+        </div>
+        <button class="btn1">Next</button>
+    </div>
+    <div class="box box2">
+        <div class="inputfield">
+        <h2 class="hd">Welcome</h2>
+        <h2 class="head2"></h2>
+        <h2>Now, Type An Number</h2>
+        <input class="input2" type="password" placeholder="Type An Number">
+        <p class="error error2"></p>
+        </div>
+        <button class="btn2">Next</button>
+    </div>
+    <div class="box box3">
+        <div class="inputfield">
+        <h2 class="head3">Enter Your Name</h2>
+        <input class="input3" type="text" placeholder="Second Player's Name">
+        <p class="error error3"></p>
+        </div>
+        <button class="btn3">Next</button>
+    </div>
+    <div class="box box4">
+        <div class="inputfield">
+        <h2 class="hd">Welcome</h2>
+        <h2 class="head4"></h2>
+        <h2 class="hd2">Guess The Number</h2>
+        <h4 class="chance"></h4>
+        <input class="input4" type="number" placeholder="Guess The Number">
+        <p class="error error4"></p>
+        </div>
+        <button class="btn4">Next</button>
+    </div>
+    <div class="box box5">
+      <h1 class="result"></h1>
+      <p class="ploneinput"></p>
+    </section>
+
+<!-- game end -->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
